@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title> Chat Window </title>
+		<link rel="stylesheet" href="chatstyle.css">
+		<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="head-text">Let's chat? </div>
+			<div class="chat-box">
+				<div class="desc-text"> Current Online. </div>
+				<form action="LIST" method="POST">
+					<div class="box">
+						<ul>
+							<li><span>1</span> Person One </li>
+							<li><span>2</span> Person Two </li>
+							
+						</ul>
+					</div>
+					<div class = "field">
+						<button>See online.</button>
+					</div>
+				</form>
+			</div>
+			<div class="chat-box">
+			<form action="SEND" method="POST">
+				<div class="desc-text"> Write anything here </div>
+				
+					<div class="see-box">
+				
+				<input type="text" class="chat-box" id="send" name="send" placeholder="Enter text you want to send."required>
+					</div>
+					
+					<div class = "field">
+						<button>Start chat</button>
+					</div>
+				
+			</form>
+			<form action="VIEW" method="POST">
+				
+					<div class = "field">
+						<button>View Prev Chats</button>
+					</div>
+				</form>
+			</div>
+			
+			
+
+		</div>
+		<script type="text/javascript"> 
+        		
+	
+		
+		</script>
+	</body>
+</html>

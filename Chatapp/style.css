@@ -1,0 +1,180 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  overflow: hidden;
+  background: #f2f2f2;
+  
+}
+
+.wrapper{
+
+  position: absolute;
+  right: 20%;
+  bottom: 50px;
+  left: 20%;
+  top: 50px;
+  max-width: 50%;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+
+}
+
+
+.wrapper .head-text{
+  line-height: 60px;
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 20px;
+  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+}
+
+.wrapper .chat-box{
+  padding: 20px;
+  width: 100%;
+}
+.chat-box .desc-text{
+  color: #515365;
+  text-align: center;
+  line-height: 25px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.chat-box form{
+  padding: 10px 15px;
+  margin: 20px 0;
+  border-radius: 25px;
+  border: 1px solid lightgrey;
+}
+.chat-box form .field{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+.chat-box form .field:last-child{
+  margin-bottom: 15px;
+}
+
+form .prevChat input,
+form .field input,
+form .field button,
+form .textarea textarea{
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  outline: none;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+form .textarea textarea:focus{
+  border-color: #fc83bb;
+}
+
+form .textarea textarea::placeholder{
+  color: silver;
+  transition: all 0.3s ease;
+}
+form .field input:focus::placeholder,
+form .textarea textarea:focus::placeholder{
+  color: lightgrey;
+}
+.chat-box form .textarea{
+  height: 250px;
+  width: 100%;
+}
+.chat-box form .textarea textarea{
+  height: 100%;
+  border-radius: 50px;
+  resize: none;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.chat-box form .field button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+  transition: all 0.3s ease;
+}
+.chat-box form .field button:active{
+  transform: scale(0.97);
+}
+
+form .textareaOne textarea{
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  outline: none;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.chat-box ul .box{
+  height: 120px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  transition: transform 0.5s; 
+}
+
+.box ul li{
+	list-style: none;
+	padding: 10px;
+	
+}
+
+.box ul li:hover{
+	transform: scale(1.1);
+	z-index: 100;
+	background: #25bcff;
+	box-shadow: 0 5px 25px rgba(0,0,0,.1);
+	color: #fff;
+
+}
+
+.box ul li span{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: #228B22;
+	color: #fff;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	transform: translateY(-20px);
+
+}
+
+.chat-box form .textareaOne ul{
+  height: 70%;
+  border-radius: 50px;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.chat-box form .prevChat{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
